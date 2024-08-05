@@ -13,8 +13,8 @@ def busqueda_en_imagen(imagen_path, tono):
     
     return pixeles_encontrados
 
-imagen_path = '../TP-10/Piastri.jpg'
-tono_buscado = 128
+imagen_path = '../TPS-PROGRAMACION/TP-10/Gris.jpg'
+tono_buscado = 255
 resultado = busqueda_en_imagen(imagen_path, tono_buscado)
 
 for coordenada, tono in resultado.items():
